@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		178E08DF1F56BE680004517B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 178E08DE1F56BE680004517B /* main.c */; };
 		178E08E71F56BEDE0004517B /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 178E08E51F56BEDE0004517B /* QuickSort.c */; };
+		178E09581F5802F60004517B /* InsertSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 178E09561F5802F60004517B /* InsertSort.c */; };
+		178E095B1F582F400004517B /* SelectSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 178E09591F582F400004517B /* SelectSort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +40,10 @@
 		178E08E51F56BEDE0004517B /* QuickSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
 		178E08E61F56BEDE0004517B /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
 		178E08EC1F57D6DF0004517B /* OC_algorithmDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OC_algorithmDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		178E09561F5802F60004517B /* InsertSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = InsertSort.c; sourceTree = "<group>"; };
+		178E09571F5802F60004517B /* InsertSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertSort.h; sourceTree = "<group>"; };
+		178E09591F582F400004517B /* SelectSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SelectSort.c; sourceTree = "<group>"; };
+		178E095A1F582F400004517B /* SelectSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectSort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 				178E08DE1F56BE680004517B /* main.c */,
 				178E08E61F56BEDE0004517B /* QuickSort.h */,
 				178E08E51F56BEDE0004517B /* QuickSort.c */,
+				178E09571F5802F60004517B /* InsertSort.h */,
+				178E09561F5802F60004517B /* InsertSort.c */,
+				178E095A1F582F400004517B /* SelectSort.h */,
+				178E09591F582F400004517B /* SelectSort.c */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -167,7 +177,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				178E08DF1F56BE680004517B /* main.c in Sources */,
+				178E095B1F582F400004517B /* SelectSort.c in Sources */,
 				178E08E71F56BEDE0004517B /* QuickSort.c in Sources */,
+				178E09581F5802F60004517B /* InsertSort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +342,7 @@
 				178E08F11F57D6DF0004517B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
